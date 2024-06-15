@@ -17,7 +17,6 @@
                                     <th scope="col" class="px-6 py-3">Name</th>
                                     <th scope="col" class="px-6 py-3">Email</th>
                                     <th scope="col" class="px-6 py-3">Domain</th>
-                                    <th scope="col" class="px-6 py-3">Action</th>
                                 </tr>
                             </th>
                             <tbody>
@@ -30,7 +29,6 @@
                                           {{ $domain->domain }}{{ $loop->last ?'':',' }}
                                       @endforeach
                                     </td>
-                                    <td class="px-6 py-4">Silver</td>
                                 </tr>
                                 @endforeach
                             </tbody>
